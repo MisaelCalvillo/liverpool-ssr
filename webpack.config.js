@@ -71,7 +71,9 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
-            options: 'assets/[hash].[ext]'
+            options: {
+              name: 'assets/[hash].[ext]'
+            }
           }
         ]
       }

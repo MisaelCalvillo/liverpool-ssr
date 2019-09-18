@@ -4,7 +4,7 @@ const render = (html) => {
       <!DOCTYPE html>
       <html>
         <head>
-          <title>Platzi Video</title>
+          <title>Todo SSR</title>
           <link rel="stylesheet" href="assets/app.css" type="text/css"></link>
         </head>
         <body>
